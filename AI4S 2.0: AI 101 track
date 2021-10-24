@@ -1,1 +1,109 @@
+#Intro to python
+
+##The python interface
+Use Python script
+script.py 
+
+##When can python be used?
+Can be used for almost anything including quick calculations, for new businesses to develop a database-driven website, clean and analyse the results of a survey
+
+##How to input comments?
+Add # before the line eg #addition
+
+##How to use python as a calulator?
+
+Addition:
+print (4+5)
+
+Subtraction:
+print (10-3)
+
+Multiplication
+print(3 * 5)
+
+Division
+print(10 / 2)
+
+Modulus aka remainder after you divide
+print(18 % 7)
+
+Exponential
+print(4 ** 2)
+
+##What is a variable?
+Variable allows one to refer to a value with a name 
+eg. x=5
+
+# Create a variable savings
+savings = 100
+
+# Create a variable growth_multiplier
+growth_multiplier = 1.1
+
+# Calculate result
+result = savings * growth_multiplier **7
+
+# Print out result
+print (result)
+
+##What are the variable types?
+-int: a number without a fractional part.
+-float: a number that has both an integer and fractional part, separated by a point.
+-str: a type to represent text. You can use single or double quotes to build a string.
+-bool: a type to represent logical values. Can only be True or False (the capitalization is important!).
+
+# Create a variable desc
+desc="compound interest"
+
+# Create a variable profitable
+profitable=True
+
+##Checking variable types
+In [1]:
+type(a)
+Out[1]:
+float
+In [2]:
+type(b)
+Out[2]:
+str
+In [3]:
+type(c)
+Out[3]:
+bool
+
+##Operations with other types
+
+savings = 100
+growth_multiplier = 1.1
+desc = "compound interest"
+
+# Assign product of growth_multiplier and savings to year1
+year1=growth_multiplier*savings
+
+# Print the type of year1
+print (type(year1))
+
+# Assign sum of desc and desc to doubledesc
+doubledesc=desc+desc
+
+# Print out doubledesc
+print (doubledesc)
+
+##Type conversion
+
+# Definition of savings and result
+savings = 100
+savings_string=str(savings)
+result = 100 * 1.10 ** 7
+result_string= str(result)
+
+# Fix the printout
+print("I started with $" + savings_string + " and now have $" + result_string + ". Awesome!")
+
+# Definition of pi_string
+pi_string = "3.1415926"
+
+# Convert pi_string into float: pi_float
+pi_float=float(pi_string)
 
